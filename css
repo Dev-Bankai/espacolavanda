@@ -1,0 +1,53 @@
+body {
+   background-image: url(back.jpg);
+   background-size: cover;
+   position: relative;
+   background-repeat: no-repeat;
+   
+
+
+}
+.container{
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    
+}
+.container img {
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(197, 28, 163, 0.6);
+    transition: all ease-in-out 0.5s;
+}
+.container img:hover {
+    width: 25%;
+}
+
+.home{
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 25px;
+   text-align: center;
+}
+   .home a{
+text-decoration: transparent;
+color: rgb(153, 0, 255);
+padding: 1px 10px;
+font-size: 20px;
+border-radius: 30px;
+background: transparent;
+transition: 0.5s;
+}
+   .home a:hover{
+    border:1px solid rgb(227, 47, 237);
+    background: transparent;
+}
